@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Nelson Electricity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html" style="display:flex; align-items:center; gap:10px; color:white; text-decoration:none;">
+                <svg class="logo-svg" viewBox="0 0 100 100">
+                    <defs>
+                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#cc5d4f" />
+                            <stop offset="100%" style="stop-color:#f06543" />
+                        </linearGradient>
+                    </defs>
+                    <circle cx="50" cy="50" r="45" class="logo-circle" />
+                    <path d="M55 25 L45 50 L65 50 L35 85 L45 60 L25 60 Z" class="logo-path" />
+                </svg>
+                <span>Nelson Electricity</span>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" data-key="home">Home</a></li>
+                <li><a href="about.html" data-key="about">About</a></li>
+                <li><a href="services.html" data-key="services">Services</a></li>
+                <li><a href="gallery.html" data-key="gallery">Gallery</a></li>
+                <li><a href="index.html#contact" data-key="contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="lang-switch" id="lang-toggle">ES</div>
+    </header>
+
+    <section class="section">
+        <h2 class="section-title" data-key="servTitle">Our Services | FREE ESTIMATES</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🔥</div>
+                <h3 data-key="serv1">Boiler Installation</h3>
+                <p data-key="serv1d">Professional boiler installation...</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🚿</div>
+                <h3 data-key="serv2">Water Heater</h3>
+                <p data-key="serv2d">Expert installation...</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">💡</div>
+                <h3 data-key="serv3">Outlets & Lamps</h3>
+                <p data-key="serv3d">Safe installation...</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">⚡</div>
+                <h3 data-key="serv4">Breakers & Boxes</h3>
+                <p data-key="serv4d">Main and box breakers...</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">💨</div>
+                <h3 data-key="serv5">Fan Installation</h3>
+                <p data-key="serv5d">Ceiling and exhaust fans...</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🏠</div>
+                <h3 data-key="serv6">Residential Work</h3>
+                <p data-key="serv6d">All residential work...</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🔧</div>
+                <h3 data-key="serv7">General Repairs</h3>
+                <p data-key="serv7d">Troubleshooting and repairs...</p>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Nelson Electricity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="index.html" style="display:flex; align-items:center; gap:10px; color:white; text-decoration:none;">
+                <svg class="logo-svg" viewBox="0 0 100 100">
+                    <defs>
+                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#cc5d4f" />
+                            <stop offset="100%" style="stop-color:#f06543" />
+                        </linearGradient>
+                    </defs>
+                    <circle cx="50" cy="50" r="45" class="logo-circle" />
+                    <path d="M55 25 L45 50 L65 50 L35 85 L45 60 L25 60 Z" class="logo-path" />
+                </svg>
+                <span>Nelson Electricity</span>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" data-key="home">Home</a></li>
+                <li><a href="services.html" data-key="services">Services</a></li>
+                <li><a href="about.html" data-key="about">About</a></li>
+                <li><a href="gallery.html" data-key="gallery">Gallery</a></li>
+                <li><a href="index.html#contact" data-key="contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="lang-switch" id="lang-toggle">ES</div>
+    </header>
+
+    <section class="section"
+        style="text-align: center; max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px;">
+        <h2 class="section-title" data-key="aboutTitle">About Nelson Electricity</h2>
+
+        <div
+            style="background: var(--card-bg); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); padding: 50px; border-radius: 20px; border: var(--glass-border); text-align: left; box-shadow: 0 10px 30px rgba(0,0,0,0.3); position: relative; overflow: hidden;">
+            <div style="position: absolute; top: 0; left: 0; width: 5px; height: 100%; background: var(--gradient);">
+            </div>
+            <p data-key="aboutText"
+                style="font-size: 1.15rem; line-height: 1.9; white-space: pre-line; color: var(--text-white);">
+                For over two decades, Nelson Electricity Inc. has been the heartbeat of power for homes and businesses
+                in our community. Our journey began 20 years ago with a simple yet ambitious mission: to provide safe,
+                reliable, and innovative electrical solutions that you can count on.
+
+                Today, we stand as a pillar of trust and excellence. We don't just fix wires; we empower your life and
+                business. From complex industrial installations to the cozy lighting of your family home, our master
+                electricians bring 20 years of refined expertise to every project. We believe in getting it right the
+                first time, ensuring your safety and satisfaction are never compromised.
+
+                Choose experience. Choose safety. Choose Nelson Electricity.
+            </p>
+        </div>
+
+        <div
+            style="width: 100%; border-radius: 20px; overflow: hidden; border: var(--glass-border); box-shadow: var(--shadow-glow); margin-top: 20px;">
+            <img src="img/627688700_17852066841666513_3113798718292921997_n..jpg"
+                style="width: 100%; display: block; transition: 0.5s;" onmouseover="this.style.transform='scale(1.03)'"
+                onmouseout="this.style.transform='scale(1)'">
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
